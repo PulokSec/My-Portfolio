@@ -1,8 +1,8 @@
 .contact{
-	background: #308E9A;
+	background-color: #308E9A;
+	background-size: cover;
 }
 .btn-brand{
-	background-color: #FCC44B;
-	background-size: cover;
+	background: #FCC44B;
 	color: black;
 }
