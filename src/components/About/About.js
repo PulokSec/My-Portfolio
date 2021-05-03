@@ -31,7 +31,7 @@ function About() {
             <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        <h1 className="project-heading">
+        <h1 className="main-name"style={{ fontSize: "2.6em" }}>
           Professional <strong className="color">Skillset </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -47,7 +47,7 @@ function About() {
           <TechStack iconName="devicon-git-plain-wordmark" />
           <TechStack iconName="devicon-bootstrap-plain-wordmark" />
         </Row>
-        <h1 className="project-heading">
+        <h1 className="main-name"style={{ fontSize: "2.6em" }}>
           <strong className="color">Tools and Technology</strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -58,7 +58,7 @@ function About() {
           <TechStack iconName="cib-zeit" />
           <TechStack iconName="cib-heroku" />
         </Row>
-        <h1 className="project-heading my-4">
+        <h1 className="main-name py-4"style={{ fontSize: "2.6em" }}>
        MY  <strong className="color">Expertise </strong>
         </h1>
         <div class="row">

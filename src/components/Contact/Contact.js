@@ -15,8 +15,9 @@ const Contact = () => {
         e.target.reset()
     }
     return (
-        <div className="contact">
+        <div className="contact py-5">
         <div className="container">
+            <h1 className="text-center main-name my-5" style={{ fontSize: "2.6em" }}>Contact with me</h1>
         <form onSubmit={sendEmail}>
                 <div className="py-5 py-70">
                     <div className="col-9 form-group mx-auto">
@@ -29,10 +30,10 @@ const Contact = () => {
                         <input type="text" className="form-control" placeholder="Subject" name="subject"/>
                     </div>
                     <div className="col-9 form-group pt-2 mx-auto">
-                        <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message"></textarea>
+                        <textarea className="form-control" id="" cols="30" rows="5" placeholder="Your message" name="message"></textarea>
                     </div>
                     <div className="col-9 pt-3 mx-auto">
-                        <input type="submit" className="btn btn-brand" value="Send Message"></input>
+                        <input type="submit" className="btn btn-primary" value="Send Message"></input>
                     </div>
                 </div>
             </form>

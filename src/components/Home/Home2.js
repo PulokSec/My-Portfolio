@@ -11,7 +11,7 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
+            <h1 className="main-name" style={{ fontSize: "2.6em" }}>
               LET ME <span className="color"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
@@ -49,10 +49,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="color">connect </span>with me
-            </p>
+            <h1 className="main-name py-3" style={{ fontSize: "2.6em" }}>FIND ME ON</h1>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a

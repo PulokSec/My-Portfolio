@@ -13,13 +13,13 @@ function Resume() {
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button variant="primary" href={pdf} target="_blank">
+          <Button className="btn-primary" href={pdf} target="_blank">
             <i className="fas fa-download">&nbsp;</i>RESUME
           </Button>
         </Row>
         <Row className="resume">
           <Col md={6} className="resume-left">
-            <h3 className="resume-title">Experience</h3>
+            <h1 className="resume-title">Experience</h1>
             <ResumeContent
               title="Upwork"
               date="Sept 2019 - present"
@@ -28,7 +28,7 @@ function Resume() {
                 " Wrote html sites from various UI/UX designs",
               ]}
             />
-            <h3 className="resume-title">Ranks and Achivements</h3>
+            <h1 className="resume-title">Ranks and Achivements</h1>
             <ResumeContent
               title=""
               content={[
@@ -38,7 +38,7 @@ function Resume() {
             />
           </Col>
           <Col md={6} className="resume-right">
-            <h3 className="resume-title">Education</h3>
+            <h1 className="resume-title">Education</h1>
             <ResumeContent
               title="SYLHET ENGINEERING COLLEGE,SYLHET "
               date="2016 - Present"

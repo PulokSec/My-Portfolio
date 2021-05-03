@@ -14,7 +14,7 @@ function BlogsCards(props) {
     >
       <Card className="blog-card-view">
         {/* <Card.Img variant="top" src={props.imgPath} className="blog-img" /> */}
-        <Card.Footer>
+        <Card.Footer className="p-desc" >
           <i className="fas fa-external-link-square-alt">&nbsp;</i>
           {props.title}
 

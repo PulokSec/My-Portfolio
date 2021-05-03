@@ -19,34 +19,10 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/puloksec"
-                style={{ color: "#ff0909" }}
+                href="https://riopulok@gmail.com"
+                style={{ color: "#010203",fontWeight:"bold" }}
               >
-                <i className="fab fa-github"></i>
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.facebook.com/pulok.chowdhury.priyo/"
-                style={{ color: "#ff0909" }}
-              >
-                <i className="fab fa-facebook"></i>
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.linkedin.com/in/pulok-chowdhury-priyo/"
-                style={{ color: "#ff0909" }}
-              >
-                <i className="fab fa-linkedin-in"></i>
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://www.instagram.com/pulok_chowdhury_priyo/"
-                style={{ color: "#ff0909" }}
-              >
-                <i className="fab fa-instagram"></i>
+                 riopulok@gmail.com
               </a>
             </li>
           </ul>

@@ -29,7 +29,7 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand className="main-name"style={{ fontSize: "1.5em" }} href="/">
          Pulok Chowdhury
         </Navbar.Brand>
         <Navbar.Toggle
@@ -55,7 +55,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => setExpanded(false)}
               >
-                <i className="far fa-user"></i> About
+                <i className="fas fa-user-alt"></i> About
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -64,7 +64,7 @@ function NavBar() {
                 to="/project"
                 onClick={() => setExpanded(false)}
               >
-                <i className="fab fa-codepen"></i> Projects
+                <i className="fas fa-laptop-code"></i> Projects
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
@@ -91,7 +91,7 @@ function NavBar() {
                 target="_blank"
                 className="fork-btn-inner"
               >
-                <i className="fas fa-star"></i>
+                <i className="fas fa-star star"></i>
               </Button>
             </Nav.Item>
           </Nav>

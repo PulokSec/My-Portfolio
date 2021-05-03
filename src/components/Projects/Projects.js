@@ -18,19 +18,16 @@ function Projects() {
     <Container fluid className="project-section">
       <Particle />
       <Container>
-        <h1 className="project-heading">
+        <h1 className="main-name"style={{ fontSize: "2.6em" }}>
           My Recent <strong className="color">Projects </strong>
         </h1>
-        <p style={{ color: "#308E94" }}>
-          Here are a few projects I've worked on recently.
-        </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={project1}
               isBlog={false}
               title="EZE Service (MERN Stack)"
-              description="All kind of music production,hosting,advertising,archiving services.User personal dashboard 3.Admin differernt pannel.Admin Can add service,manage orders,set orders,add teams.User can review"
+              description="All kind of music production,hosting,advertising,archiving services.User personal dashboard Admin differernt pannel.Admin Can add service,manage orders,set orders,add teams.User can review"
               link="https://eze-service.web.app/"
               code="https://github.com/PulokSec/eze-service-client"
             />
@@ -80,10 +77,9 @@ function Projects() {
             />
           </Col>
         </Row>
-        <h1 className="project-heading">
+        <h1 className="main-name" style={{ fontSize: "2.6em" }}>
           My Recent <strong className="color">Blog </strong> Posts
         </h1>
-        <p style={{ color: "#308E94" }}>Have a look some of my blogs</p>
         <Row style={{ justifyContent: "center" }}>
           <Col md={4} className="blog-card">
             <BlogCard
@@ -98,7 +94,7 @@ function Projects() {
               imgPath=""
               link=""
               title="Coming Soon"
-              // site="medium.com"
+              // site=""
             />
           </Col>
         </Row>
