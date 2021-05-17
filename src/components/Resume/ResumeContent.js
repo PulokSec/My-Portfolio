@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function ResumeContent(props) {
   return (
@@ -11,9 +12,12 @@ function ResumeContent(props) {
       </p>
       <ul>
         {props.content.map((value, index) => (
-          <li className="p-desc" key={index}> ‣ {value}</li>
+          <li className="p-desc" key={index}>‣{value}</li>
         ))}
       </ul>
+      <Link to={props.link} className="p-desc" style={{color:"#308E9A"}}>
+        <em>{props.status}</em>
+      </Link>
     </div>
   );
 }

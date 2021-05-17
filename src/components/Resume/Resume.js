@@ -4,7 +4,7 @@ import Particle from "../Particle";
 import ResumeContent from "./ResumeContent";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import pdf from "../../Assets/Resume_Pulok_Chowdhury.pdf";
+
 
 function Resume() {
 
@@ -13,8 +13,8 @@ function Resume() {
       <Particle />
       <Container>
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <Button className="btn-primary" href={pdf} target="_blank">
-            <i className="fas fa-download">&nbsp;</i>RESUME
+          <Button className="btn-primary" href="https://drive.google.com/uc?export=download&id=1fPeTptNa2EQ0jVeXiJVxxuyap0t6Qr8_" target="_blank">
+            <i className="fas fa-cloud-download-alt">&nbsp;</i>RESUME
           </Button>
         </Row>
         <Row className="resume">
@@ -25,16 +25,25 @@ function Resume() {
               date="Sept 2019 - present"
               content={[
                 "Various e-commerce sites for clients",
-                " Wrote html sites from various UI/UX designs",
+                "PSD to HTML, FIGMA/Adobe XD to HTML design.",
               ]}
             />
             <h1 className="resume-title">Ranks and Achivements</h1>
             <ResumeContent
-              title=""
+              title="6th International Conference for Convergence in Technology (12CT)"
+              content={[
+                'Transfer Learning Approach for Diabetic Retinopathy Detection using Efficient Network with 2 phase Training',
+              ]}
+              link="https://drive.google.com/uc?export=download&id=1ri7G9rMUmcnUGQXDiwL0-CKafMq9duH4"
+              status="Paper"
+            />
+            <ResumeContent
+              title="Skill Development for Mobile Game and Application Project (ICT Division)"
               content={[
                 'Honorable Mention Android App Projects',
-                'Design Awards, SEC Developers',
               ]}
+              link="#"
+              status="Updating Soon"
             />
           </Col>
           <Col md={6} className="resume-right">

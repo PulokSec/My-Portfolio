@@ -233,7 +233,7 @@ body {
 
 .main-name {
   color: #010203;
-  font-family: 'Concert One', cursive !important;
+  font-family: 'Courier New', Courier, monospace !important;
   font-size: 1em;
   font-weight: bold;
 }
@@ -258,7 +258,7 @@ body {
   }
 }
 
-.myAvtar {
+.myAvatar {
   justify-content: center !important;
   padding-top: 9em !important;
 }
@@ -289,6 +289,7 @@ body {
   font-size: 1.5em !important;
   font-weight: bold !important;
   text-align: left;
+  color: #010203 !important;
 }
 
 .home-about-social {
@@ -393,8 +394,8 @@ body {
   padding: 0 !important;
 }
 
-.blockquote-footer {
-  color: #308E9A !important;
+.blockquote {
+  color: #010203 !important;
 }
 /* --------- */
 /* Projects */
@@ -505,7 +506,7 @@ body {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
-  color: #308E9A !important;
+  color: #010203 !important;
 }
 
 .tech-icons {
@@ -672,7 +673,7 @@ body {
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
-  border-radius: 50%;
+  border-radius: 20px;
 }
 .star{
   color:#FCC44B !important;

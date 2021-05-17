@@ -6,7 +6,6 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 import Button from "react-bootstrap/Button";
-import pdf from "../../Assets/Resume_Pulok_Chowdhury.pdf";
 import Contact from '../Contact/Contact'
 import Projects from "../Projects/Projects";
 
@@ -29,7 +28,7 @@ function Home() {
                 <Type />
               </div>
               <div className="py-5">
-              <Button className="btn-primary" target="_blank" href={pdf}  rel="noopener"><i className="fas fa-download">&nbsp;</i>RESUME</Button>
+              <Button className="btn-primary" target="_blank" href="https://drive.google.com/uc?export=download&id=1fPeTptNa2EQ0jVeXiJVxxuyap0t6Qr8_"  rel="noopener"><i className="fas fa-cloud-download-alt">&nbsp;</i>RESUME</Button>
               </div>
             </Col>
           </Row>

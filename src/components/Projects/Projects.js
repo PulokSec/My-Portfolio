@@ -83,18 +83,28 @@ function Projects() {
         <Row style={{ justifyContent: "center" }}>
           <Col md={4} className="blog-card">
             <BlogCard
-              imgPath=""
-              link=""
-              title="Coming Soon"
-              site=""
+              imgPath="https://miro.medium.com/max/1400/1*0jH9DLv5e94sxHXWz5JD8w.png"
+              link="https://riopulok.medium.com/react-happy-concepts-831fedfa3a8b"
+              title="React | Happy Concepts 😀"
+              description="React is a JavaScript “library”. It is not exactly a “framework”. It is not a complete solution and you will often need to use more libraries with React to form any solution. React does not assume anything about the other parts in any solution."
             />
           </Col>
           <Col md={4} className="blog-card">
             <BlogCard
-              imgPath=""
-              link=""
-              title="Coming Soon"
-              // site=""
+              imgPath="https://miro.medium.com/max/616/1*Dl33613O8kef_XMDpRzNww.png"
+              link="https://riopulok.medium.com/s-means-strong-find-out-https-6a3847cc124b"
+              title="“S” Means “Strong” Find Out — (HTTPS)"
+              description="Extra “s” means your connection to that website is secure and encrypted; any data you enter is safely shared with that website. The technology that powers that little “s” is called SSL, which stands for “Secure Sockets Layer.”"
+            />
+          </Col>
+          <Col md={4} className="blog-card">
+            <BlogCard
+              imgPath="https://miro.medium.com/max/1900/1*cl2Sk0bVXStfRbrfjLzXOQ.png"
+              link="https://riopulok.medium.com/how-all-javascripts-numbers-42d94deb8d24"
+              title="How all Javascript’s numbers??"
+              description="What is a Number?
+              The Number type is a double-precision 64-bit binary format IEEE 754 value (numbers between -(253 − 1) and 253 − 1). But because such Number values aren’t real integers, you have to be a little careful.
+              ECMAScript has two built-in numeric types: Number and BigInt."
             />
           </Col>
         </Row>

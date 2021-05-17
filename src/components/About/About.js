@@ -5,7 +5,8 @@ import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import TechStack from "./TechStack";
 import AboutCard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+import myImg from "../../Assets/1pulok2.png";
+import Tilt from "react-parallax-tilt";
 
 function About() {
   return (
@@ -18,17 +19,18 @@ function About() {
             style={{
               justifyContent: "center",
               paddingTop: "30px",
-              paddingBottom: "50px",
+              // paddingBottom: "50px",
             }}
           >
             <AboutCard />
           </Col>
           <Col
             md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
+            className="myAvatar"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            <Tilt>
+              <img src={myImg} className="img-fluid" style={{borderRadius:"50%"}} alt="avatar" />
+            </Tilt>
           </Col>
         </Row>
         <h1 className="main-name"style={{ fontSize: "2.6em" }}>
