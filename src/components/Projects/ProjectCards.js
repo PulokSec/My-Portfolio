@@ -13,10 +13,15 @@ function ProjectCards(props) {
         <Card.Text style={{ textAlign: "justify-content-center", fontWeight:"600", fontSize:"1.2em" }}>
           {props.description}
         </Card.Text>
-        <Button variant="primary" href={props.code} target="_blank">
+        <Button variant="primary" href={props.client} target="_blank">
           <i className="fab fa-github">&nbsp;</i>
         </Button>
-        <Button variant="primary" className="ml-3" href={props.link} target="_blank">
+        {props.server &&
+        <Button variant="primary" className="ml-3" href={props.server} target="_blank">
+        <i className="fas fa-server">&nbsp;</i>
+      </Button>  
+      }
+        <Button variant="primary" className="ml-3" href={props.live} target="_blank">
           <i className="fas fa-tv">&nbsp;</i>
         </Button>
       </Card.Body>

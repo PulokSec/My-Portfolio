@@ -11,6 +11,7 @@ import project2 from "../../Assets/Projects/project4.png";
 import project3 from "../../Assets/Projects/project3.png";
 import project4 from "../../Assets/Projects/project2.png";
 import project5 from "../../Assets/Projects/project1.png";
+import project6 from "../../Assets/Projects/project6.png";
 
 
 function Projects() {
@@ -24,12 +25,24 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={project6}
+              isBlog={false}
+              title="Travel Diaries (MERN Stack)"
+              description="Has signed in and signed up with JWT authentication, Hashed Passwords in database.Has like and comment functionality.Users can search any user from the search box, follow and unfollow other users.Users can create, update their profile and also delete their post."
+              link="https://travel-diaries-social-site.web.app/"
+              client="https://github.com/PulokSec/travel-diaries-social-site"
+              server="https://github.com/PulokSec/travel-diaries-social-site-server"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={project1}
               isBlog={false}
               title="EZE Service (MERN Stack)"
-              description="All kind of music production,hosting,advertising,archiving services.User personal dashboard Admin differernt pannel.Admin Can add service,manage orders,set orders,add teams.User can review"
-              link="https://eze-service.web.app/"
-              code="https://github.com/PulokSec/eze-service-client"
+              description="All kind of music production,hosting,advertising,archiving services.User personal dashboard Admin different panel.Admin Can add service,manage orders,set orders,add teams.User can review"
+              live="https://eze-service.web.app/"
+              client="https://github.com/PulokSec/eze-service-client"
+              server="https://github.com/PulokSec/eze-service-server"
             />
           </Col>
 
@@ -39,8 +52,9 @@ function Projects() {
               isBlog={false}
               title="Book Worm Store"
               description="Find Your desire books on demand.Easy to buy and manage your orders.Popular authentication system.Admin panel to add products and manage orders."
-              link="https://book-worm-store.web.app/"
-              code="https://github.com/PulokSec/book-worm-client"
+              live="https://book-worm-store.web.app/"
+              client="https://github.com/PulokSec/book-worm-client"
+              server="https://github.com/PulokSec/book-worm-server"
             />
           </Col>
 
@@ -50,8 +64,8 @@ function Projects() {
               isBlog={false}
               title="Action Core Teams"
               description="This app has collection of several English Premier League Teams. Visitor also get detailed information such as foundation date,country,sports type etc. This site is made for all the supporter,players and sports enthusiasts."
-              link="https://action-core-teams.netlify.app/"
-              code="https://github.com/PulokSec/Action-Core-Teams"
+              live="https://action-core-teams.netlify.app/"
+              client="https://github.com/PulokSec/Action-Core-Teams"
             />
           </Col>
 
@@ -61,8 +75,8 @@ function Projects() {
               isBlog={false}
               title="Hornet Gadget Store"
               description="Find various types of gadgets and electronic appliances.Its just a landing page or homepage.Work with and electronic e-commerce site."
-              link="https://puloksec.github.io/HornetGadget/"
-              code="https://github.com/PulokSec/HornetGadget"
+              live="https://puloksec.github.io/HornetGadget/"
+              client="https://github.com/PulokSec/HornetGadget"
             />
           </Col>
 
@@ -72,8 +86,8 @@ function Projects() {
               isBlog={false}
               title="KhaibaNaki-FoodSite"
               description="Best Site for food lovers and cookers.Find thousands of food-items by search.See cooking methods and cook whatever you like."
-              link=" https://puloksec.github.io/KhaibaNaki-FoodSite/"
-              code="https://github.com/PulokSec/KhaibaNaki-FoodSite"
+              live=" https://puloksec.github.io/KhaibaNaki-FoodSite/"
+              client="https://github.com/PulokSec/KhaibaNaki-FoodSite"
             />
           </Col>
         </Row>
